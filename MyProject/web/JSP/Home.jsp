@@ -1,6 +1,6 @@
 <%-- 
     Document   : Home
-    Created on : Jun 9, 2022, 9:45:15 AM
+    Created on : Jun 20, 2022, 11:36:21 PM
     Author     : win
 --%>
 
@@ -9,115 +9,75 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>FPT University Academy Portal</title>
-        <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+        <title>Home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
-        <div class="contaner">
-        <div class="row">
-            <div class="col-md-8">
-                <h1>
-                    <span>FPT University Academy Portal</span>
-                </h1>
-            </div>
-            <div class="col-md-4">
+        <div class="container home_container">
+
+    <div class="row">
+
+        <div class="col-md-8">
+
+            <h1><span>FPT University Academic Portal</span>
+            </h1>
+
+        </div>
+        <div class="col-md-4">
+            <table>
+                <tr>
+                    <td colspan="2" class="auto-style1"><strong>FAP mobile app (myFAP) is ready at</strong></td>
+
+                </tr>
+                <tr>
+                    <td><a href="https://apps.apple.com/app/id1527723314">
+                        <img src="https://fap.fpt.edu.vn/images/app-store.svg" style="width: 120px; height: 40px" alt="apple store" /></a></td>
+                    <td><a href="https://play.google.com/store/apps/details?id=com.fuct">
+                        <img src="https://fap.fpt.edu.vn/images/play-store.svg" style="width: 120px; height: 40px" alt="google store" /></a></td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="offset-4 col-6" >
+        <div class="box">
+            <h3 class="orangeTitle">Academic sInformation</h3>
+            <div class="listBoxWrapper">
                 <table>
-                    <tbody>
-                        <tr>
-                            <td colspan="2" class="auto-style1">
-                                <strong>Fap mobile app(my Fap) is ready at</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href=""></a>
-                            </td>
-                            <td>
-                                <a href="">
-                                    <img src="" alt="">
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
+                    <tr>
+                        <td>
+                            <table class="home_table">
+                                <tbody>
+                              
+                                    
+                                    <tr>
+                                        
+                                        <td valign="top" >
+                                            <h4>Reports(Báo cáo)</h4>
+                                            <ul >
+                                                <li><a class="information_access" href="./check_attendance.html">Attendance report</a> (Báo cáo điểm danh)</li>
+                                                <li><a class="information_access" href="./mark_report.html">Mark Report</a> (Báo cáo điểm)</li>
+                                                <li><a class="information_access" href="./list.html">Student List</a> (Danh sách lớp)</li>
+                                                
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                  
+                                  
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
                 </table>
             </div>
         </div>
-        <div class="row">
-                <div class="col-md-6">
-                <div style="border: solid 1px #ccc; height: 100px">
-                    <fieldset>
-                        <legend>
-                            <span class="label label-default btn-warning">
-                                <b>Phụ Huynh</b>
-                            </span>
-                        </legend>
-                        <div style="margin-top: -15px;">
-                            <a href="">
-                                <h3>
-                                    <span class="btn btn-primary">
-                                      <b>Đăng nhập</b>
-                                    </span>
-                                </h3>
-                            </a>
-                        </div>
-                    </fieldset>
-                </div> 
-            </div>
-            <div class="col-md-6">
-                <div style="border: solid 1px #ccc; height: 100px">
-                    <fieldset>
-                        <legend>
-                            <span class="label label-default btn-warning">
-                                <b>Sinh viên, giảng viên, cán bộ ĐH-FPT</b>
-                            </span>
-                        </legend>
-                        <br>
-                        <div id="loginform" style="margin-top: -15px; padding-top: 10px; vertical-align: central;">
-                        <center>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <select name="select campus" id="select capus" class="btn btn-default">
-                                    <option selected="selected" value>Select Campus</option>
-                                    <option value="3">FU-Hòa Lạc</option>
-                                    <option value="4">FU-Hồ Chí Minh</option>
-                                    <option value="5">FU-Đà Nẵng</option>
-                                    <option value="6">FU-Cần Thơ</option>
-                                    <option value="7">FU-Quy Nhơn</option> 
-                                    </select> 
-                                </div>
-                                <div class="col-md-4">
-                                    <div style="margin-left: 50px"></div>
-                                </div>
-                            </div>
-                        </center>
-                        </div>
-                    </fieldset>
-                </div>
-            </div>
-        </div>
-        <tr style="border-bottom: 0 none">
-            <td>
-              <br>
-              <table width="100%" style="border: 1px solid transparent;" id="cssTable">
-               <tbody>
-                <tr>
-                    <td>
-                        <p style="text-align: center">
-                         Powered by
-                         <a href="">FPT University</a>
-                         &nbsp;|&nbsp;
-                         <a href="">CMS</a>
-                         &nbsp;|&nbsp;
-                         <a href="">library</a>
-                         &nbsp;|&nbsp;
-                         <a href="">book24x7</a>
-                        </p>
-                    </td>
-                </tr>
-               </tbody>
-              </table>
-            </td>
-        </tr>
+       
     </div>
+   </div>
+    
+</div>
+
     </body>
 </html>

@@ -14,6 +14,15 @@
         <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
+        
+        <div class="control">
+    <a href="">Home</a>
+    <a href="">Take Attendance</a>
+    <a href="">Add</a>
+    <a href="">Logout</a>
+   </div>
+        
+        
         <h2>Activities for
         <span id="ctl00_mainContent_lblStudent">NamTPHE151430 (Trần Phương Nam)</span></h2>
     <p>

@@ -14,3 +14,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     width: 146px;
     height: 111px;
 }
+.save {
+    margin: 10px 700px 20px;
+    
+}
+.control{
+    margin-left: 100px;
+    margin-bottom: 30px;
+} 
+.control a{
+    margin-left: 5px;
+   background-color: rgb(204, 190, 172);
+}
+.control :nth-child(4){
+    margin-left: 50%;
+}
