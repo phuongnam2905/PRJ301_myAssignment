@@ -22,7 +22,7 @@ public class StudentDBContext extends DBContext<Student>{
     @Override
     public ArrayList<Student> list() {
         ArrayList<Student> list = new ArrayList<>();
-        
+       
         try {
             String sql="select * from Student";
             PreparedStatement stm = connection.prepareStatement(sql);
