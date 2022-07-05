@@ -18,8 +18,11 @@ import java.util.logging.Logger;
  * @author win
  */
 public class CourseDBContext extends DBContext<Course>{
-    public List<Course> getAllCourse(){
-        List<Course> list = new ArrayList<>();
+    
+    
+    @Override
+    public ArrayList<Course> list() {
+        ArrayList<Course> list = new ArrayList<>();
         
         try {
             String sql="select * from Course";
@@ -33,5 +36,25 @@ public class CourseDBContext extends DBContext<Course>{
         } catch (SQLException ex) {
         }
         return list;
+    }
+
+    @Override
+    public Course get(int id) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void insert(Course model) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void update(Course model) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void delete(Course model) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
