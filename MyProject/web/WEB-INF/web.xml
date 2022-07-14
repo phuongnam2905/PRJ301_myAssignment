@@ -8,6 +8,10 @@
         <servlet-name>ControllerHome</servlet-name>
         <servlet-class>Controller.ControllerHome</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Controllerschedule</servlet-name>
+        <servlet-class>Controller.Controllerschedule</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ControllerLogin</servlet-name>
         <url-pattern>/Login</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>ControllerHome</servlet-name>
         <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Controllerschedule</servlet-name>
+        <url-pattern>/schedule</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

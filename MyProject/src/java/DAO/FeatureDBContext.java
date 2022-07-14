@@ -28,7 +28,7 @@ public class FeatureDBContext extends DBContext<Feature>{
                 Feature fe = new Feature();
                 fe.setFid(rs.getInt("fid"));
                 fe.setFname(rs.getString("fname"));
-                fe.setUrl(rs.getString("url"));
+                fe.setUrl(rs.getString("url"))s;
             }
         } catch (SQLException ex) {
         }
