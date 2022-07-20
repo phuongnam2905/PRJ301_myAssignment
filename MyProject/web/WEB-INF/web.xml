@@ -12,6 +12,26 @@
         <servlet-name>Controllerschedule</servlet-name>
         <servlet-class>Controller.Controllerschedule</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>BangDiemservlet</servlet-name>
+        <servlet-class>Controller.BangDiemservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HocSinhservlet</servlet-name>
+        <servlet-class>Controller.HocSinhservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Lopservlet</servlet-name>
+        <servlet-class>Controller.Lopservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Monservlet</servlet-name>
+        <servlet-class>Controller.Monservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TKBservlet</servlet-name>
+        <servlet-class>Controller.TKBservlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ControllerLogin</servlet-name>
         <url-pattern>/Login</url-pattern>
@@ -23,6 +43,26 @@
     <servlet-mapping>
         <servlet-name>Controllerschedule</servlet-name>
         <url-pattern>/schedule</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BangDiemservlet</servlet-name>
+        <url-pattern>/BangDiemservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HocSinhservlet</servlet-name>
+        <url-pattern>/HocSinhservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Lopservlet</servlet-name>
+        <url-pattern>/Lopservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Monservlet</servlet-name>
+        <url-pattern>/Monservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TKBservlet</servlet-name>
+        <url-pattern>/TKBservlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

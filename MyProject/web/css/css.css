@@ -1,0 +1,108 @@
+@charset "utf-8";
+*{	
+	padding:0;
+	margin:0;
+}
+#khung{
+	border-collapse: collapse;
+	margin:auto;
+	width:1000px;
+	height:1000px;
+	border:thin solid black;
+}
+#header{
+	background:blue;
+	border-collapse: collapse;
+	margin:auto;
+	width:100%;
+	height:200px;
+	border:thin solid black;
+}
+
+#menu{
+	border-collapse: collapse;
+	margin:auto;
+	width:100%;
+	height:50px;
+	border:thin solid black;
+}
+#menu ul{
+	width:100%;
+	height:40px;
+	list-style:none;
+}
+
+#menu ul li{
+	width:150px;
+	height:40px;
+	line-height:40px;
+	float:left;
+}
+#menu ul li a{
+	
+	text-decoration:none;
+	color:#000;
+}
+#menu ul li a:hover{
+	color: #930	
+}
+#content{
+	border-collapse: collapse;
+	float:left;
+	width:100%;
+	height:550px;
+	border:thin solid yellow;
+}
+#footer{
+	border-collapse: collapse;
+	float:left;
+	width:100%;
+	height:200px;
+	border:thin solid black;
+}
+#left
+{
+	border-collapse: collapse;
+	float:left;
+	width:300px;
+	height:100%;
+	border:thin solid black;	
+}
+
+#right
+{
+	border-collapse: collapse;
+	float:right;
+	width:690px;
+	height:500px;
+	border:thin solid blue;	
+}
+#menuduoi
+{
+	border-collapse: collapse;
+	float:left;
+	width:100%;
+	height:50px;
+	border:thin solid red;	
+}
+
+#danhsach ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+#danhsach ul li {
+	margin-left:10px;
+	margin:5px;	
+}
+#danhsach a {
+	text-decoration:none;
+	color:#000;	
+}
+#danhsach a:hover{
+	text-decoration:underline;
+}
+/* CSS Document */
+
+
+
