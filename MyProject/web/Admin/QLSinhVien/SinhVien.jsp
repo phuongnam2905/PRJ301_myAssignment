@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index2
-    Created on : Dec 2, 2016, 8:20:58 PM
-    Author     : TiT_TM
---%>
+
 
 
 <%@page import="Model.Lop_Model"%>

@@ -1,19 +1,11 @@
-<%-- 
-    Document   : KetQua
-    Created on : Nov 28, 2016, 8:02:49 AM
-    Author     : TiT_TM
---%>
+
 
 <%@page import="java.util.ArrayList"%>
 <%@page import="Model.*"%>
 <%@page import="DTO.MonHoc_DTO"%>
 <%@page import="DTO.MonHoc_DTO"%>
 <!DOCTYPE html>
-<%-- 
-    Document   : index2
-    Created on : Dec 2, 2016, 8:20:58 PM
-    Author     : TiT_TM
---%>
+
 
 
 <!DOCTYPE html>

@@ -4,6 +4,8 @@
  */
 package Controller;
 
+import DTO.Lop_DTO;
+import Model.Lop_Model;
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
